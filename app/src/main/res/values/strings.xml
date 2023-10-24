@@ -3,6 +3,7 @@
     <string name="main_btn_views">Елементы UI</string>
     <string name="main_tv_title">Знакомство с Android</string>
     <string name="main_calc">Калькулятор</string>
+    <string name="main_chat">Чат</string>
 
     <string name="views_tv_title">Елементы UI (Views)</string>
     <string name="textview_title">LinearLayout:horizontal</string>

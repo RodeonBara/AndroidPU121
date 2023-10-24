@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnCalc = findViewById( R.id.main_calc );
         btnCalc.setOnClickListener( this::btnCalcClick );
+
+        Button btnChat = findViewById( R.id.main_chat );
+        btnChat.setOnClickListener( this::btnChatClick );
     }
     private void btnViewsClick(View view){
         Intent intent = new Intent(
@@ -33,6 +36,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(
                 this.getApplicationContext(),
                 CalcActivity.class ) ;
+        startActivity( intent );
+    }
+
+    private void btnChatClick( View view ) {  // view - sender
+        Intent intent = new Intent(
+                this.getApplicationContext(),
+                ChatActivity.class ) ;
         startActivity( intent );
     }
 
